@@ -5,10 +5,12 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* header section styles */
 .header-first-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -29,4 +31,95 @@
     background: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
     padding: 30px;
+}
+.header-second-title{
+    width: 582px;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.header-discription{
+    width: 600px;
+    font-size: 16px;
+    margin-bottom: 29px;
+}
+.primary-btn{
+    color: aliceblue;
+    background-color: #E02C6D;
+    padding: 7px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+/* second section styles */
+
+.second-section{
+    margin: 150px 200px;
+
+}
+
+.div-img{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+/* .third-section styles */
+
+.third-section{
+    margin: 50px 200px;
+    overflow: hidden;
+}
+.third-section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.third-section-info{
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 7px;
+    width: 324px;
+    background-color: antiquewhite;
+
+}
+.third-section-img{
+    width: 300px ;
+}
+.third-section-title{
+    width: 300px;
+}
+.third-section-description{
+    width: 196px;
+    font-size: 14px;
+}
+.third-section-rate{
+    width: 300px;
+}
+
+/* styles four section  */
+
+.four-section-div{
+    display: flex;
+    justify-content: space-between ;
+    margin: 50px 200px;
+
+}
+.four-section-img{
+   width: 404px;
+}
+.four-section-dec{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+.four-section-detail{
+    margin-right: 350px;
+}
+/* footer styles  */
+
+.footer-section{
+    background-color: black;
+    width: 100%;
+    height: 250px;
 }
